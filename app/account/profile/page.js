@@ -1,4 +1,6 @@
 import UpdateProfileForm from "@/app/_components/UpdateProfileForm";
+import SelectCountry from "@/app/_components/SelectCountry";
+
 
 export const metadata = {
   title: "Update profile",
@@ -6,7 +8,6 @@ export const metadata = {
 
 export default function Page() {
   // CHANGE
-  const countryFlag = "pt.jpg";
   const nationality = "portugal";
   return (
     <div>
