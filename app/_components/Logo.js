@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import logo from "@/public/logo.png";
+import logo from "./logo.png";
 
 function Logo() {
   return (
@@ -14,7 +14,7 @@ function Logo() {
         alt="The Wild Oasis logo"
       />
       <span className="text-xl font-semibold text-primary-100">
-        Maturatyka
+        Hotel Lodz
       </span>
     </Link>
   );

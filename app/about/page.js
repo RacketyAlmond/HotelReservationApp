@@ -1,6 +1,6 @@
 import Image from "next/image";
-import image1 from "@/public/about-1.jpg";
-import image2 from "@/public/about-2.jpg";
+import image1 from "./about-1.jpg";
+import image2 from "./about-2.jpg";
 
 export const metadata = {
   title: "About",
@@ -11,7 +11,7 @@ export default function Page() {
     <div className="grid grid-cols-5 gap-x-24 gap-y-32 text-lg items-center">
       <div className="col-span-3">
         <h1 className="text-4xl mb-10 text-accent-400 font-medium">
-          Piotr Koneczny
+          Lorem Ipsum
         </h1>
 
         <div className="space-y-8">
@@ -67,10 +67,10 @@ export default function Page() {
 
           <div>
             <a
-              href="/cabins"
+              href="/account"
               className="inline-block mt-4 bg-accent-500 px-8 py-5 text-primary-800 text-lg font-semibold hover:bg-accent-600 transition-all"
             >
-              Nasze korepetycje
+              Profile
             </a>
           </div>
         </div>

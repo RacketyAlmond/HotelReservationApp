@@ -9,7 +9,7 @@ export default function Navigation() {
             href="/cabins"
             className="hover:text-accent-400 transition-colors"
           >
-            Kursy
+            Rooms
           </Link>
         </li>
         <li>
@@ -17,7 +17,7 @@ export default function Navigation() {
             href="/about"
             className="hover:text-accent-400 transition-colors"
           >
-            O nas
+            About us
           </Link>
         </li>
         <li>
@@ -25,7 +25,7 @@ export default function Navigation() {
             href="/account"
             className="hover:text-accent-400 transition-colors"
           >
-            Korepetycje
+            Profile
           </Link>
         </li>
       </ul>
