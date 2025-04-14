@@ -1,1 +1,1 @@
-Advanced next.js web application unitilising cutting-edge functionalities for modern reservation-aimed website. Project in development, on fundaments of Jonas Schmedtmann's "The Ultimate React Course 2025: React, Next.js, Redux & More" course
+Advanced next.js web application utitilising cutting-edge functionalities for modern reservation-aimed website. Project in development, currently with an entire authentication side working. This project has been made on fundaments of Jonas Schmedtmann's "The Ultimate React Course 2025: React, Next.js, Redux & More" course.
