@@ -11,7 +11,7 @@ function CabinCard({ cabin }) {
         <Image
           src={image}
           fill
-          alt={`Cabin ${name}`}
+          alt={`Room ${name}`}
           className="flex-1 border-r border-primary-800"
         />
       </div>
@@ -19,8 +19,7 @@ function CabinCard({ cabin }) {
       <div className="flex-grow">
         <div className="pt-5 pb-4 px-7 bg-primary-950">
           <h3 className="text-accent-500 font-semibold text-2xl mb-3">
-            Cabin {name}
-          </h3>
+          {isNaN(Number(name)) ? name : "Mystery cabin"}          </h3>
 
           <div className="flex gap-3 items-center mb-2">
             <UsersIcon className="h-5 w-5 text-primary-600" />

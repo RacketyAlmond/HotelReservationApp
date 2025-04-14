@@ -24,7 +24,7 @@ export default function Filter() {
         filter='all'
         handleFilter={handleFilter}
         activeFilter={activeFilter}>
-            All cabins
+            All rooms
         </Button>
 
         <Button

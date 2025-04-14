@@ -11,14 +11,14 @@ export default function Page() {
   return (
     <div>
       <h2 className="font-semibold text-2xl text-accent-400 mb-7">
-        Twoje rezerwacje
+        Your reservations
       </h2>
 
       {bookings.length === 0 ? (
         <p className="text-lg">
-          Nie masz jeszcze rezerwacji korepetycji. Poszukaj w {" "}
+          You do not yet have any reservations. Search in {" "}
           <a className="underline text-accent-500" href="/cabins">
-            Korepetycje &rarr;
+            Reservations &rarr;
           </a>
         </p>
       ) : (

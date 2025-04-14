@@ -12,11 +12,11 @@ export default function Page() {
   return (
     <div>
       <h2 className="font-semibold text-2xl text-accent-400 mb-4">
-        Zaktualizuj profil
+        Update Profile
       </h2>
 
       <p className="text-lg mb-8 text-primary-200">
-        Lorem ipsum lorem ipsum
+        We need that information in order to proceed with the reservation
       </p>
 
       <UpdateProfileForm >

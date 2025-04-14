@@ -16,7 +16,7 @@ export default function Cabin({cabin}) {
 
   <div>
     <h3 className="text-accent-100 font-black text-7xl mb-5 translate-x-[-254px] bg-primary-950 p-6 pb-1 w-[150%]">
-      Cabin {name}
+      {name}
     </h3>
 
     <p className="text-lg text-primary-300 mb-10">{description}</p>
@@ -33,7 +33,7 @@ export default function Cabin({cabin}) {
         <MapPinIcon className="h-5 w-5 text-primary-600" />
         <span className="text-lg">
           Located in the heart of the{" "}
-          <span className="font-bold">Dolomites</span> (Italy)
+          <span className="font-bold">Łódź</span> (Poland)
         </span>
       </li>
       <li className="flex gap-3 items-center">

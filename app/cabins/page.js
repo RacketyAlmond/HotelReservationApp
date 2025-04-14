@@ -11,7 +11,7 @@ export const revalidate = 3600;
 
 
 export const metadata = {
-  title: "Cabins",
+  title: "Rooms",
 };
 
 export default async function Page({searchParams}) {
@@ -21,7 +21,7 @@ export default async function Page({searchParams}) {
   return (
     <div>
       <h1 className="text-4xl mb-5 text-accent-400 font-medium">
-        Cabins
+        Rooms
       </h1>
       <p className="text-primary-200 text-lg mb-10">
         
