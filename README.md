@@ -37,6 +37,7 @@ This project demonstrates many of Next.js’s core and advanced features:
 ## Demo
 
 
-https://github.com/user-attachments/assets/e9091c6b-2561-497c-9f20-2425c8e9c684
+https://github.com/user-attachments/assets/efdb8972-2ac0-4e7f-95a2-eecf95278013
+
 
 
