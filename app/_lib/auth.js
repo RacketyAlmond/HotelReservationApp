@@ -1,6 +1,6 @@
 import NextAuth from "next-auth";
 import Google from "next-auth/providers/google"
-import { createGuest } from "./data-service";
+import { createGuest, getGuest } from "./data-service";
 
 const authConfig = {
     providers: [
@@ -31,7 +31,8 @@ const authConfig = {
     },
     pages: {
         signIn: "/login",
-    }
+    },
+    debug: true,
 }
 export const {
     auth,
